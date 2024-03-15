@@ -1,0 +1,58 @@
+@import url('common.css');
+
+.container{
+  width: 80%;
+  margin: 50px auto;
+  border: 10px dashed;
+  border-radius: 15%;
+  border-bottom-color: pink;
+  border-top-color: pink;
+  background-color: rgb(250, 226, 229);
+  padding: 25px;
+}
+
+.container .title{
+  width: 90%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: transparent;
+  
+  background: white url(../img/sanrio.png) no-repeat center/70%;
+  border: 0px solid ;
+  border-radius: 45%;
+  padding: 40px 0px;
+  margin: 0px 0px 30px 25px;
+ 
+}
+.box{
+  margin: 10px;
+}
+.container .contents .box{
+  border: 3px solid skyblue;
+  float: left;
+  border-radius: 10%;
+}
+
+.container .contents .box img{
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+
+.container .contents .box p{
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid skyblue;
+  padding: 10px;
+}
+
+.box:nth-child(2n+1){
+  clear: both;
+}
+
+#kuromi{
+  
+}
+
+
